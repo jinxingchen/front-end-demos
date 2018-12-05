@@ -3,9 +3,9 @@
 ### comprehensive
 * [综合练习](comprehensive)
 	* [bootcdn]()
-	
+
 ### demo
-* [组件]()
+* [组件](demo)
 	* [Alert](demo/components/alert.html)警告牌
 	* [Badge](demo/components/badge.html)徽章
 	* [Breadcrumb](demo/components/breadcrumb.html)路径导航
