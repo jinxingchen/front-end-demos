@@ -10,7 +10,14 @@
   margin-right: -15px;
 }
 
+.main-navbar{
+  background-color: transparent;
+}
 
-.navbar-nav>.active>a{
-    color: #fff;
-  }
+.main-navbar a{
+  color: #eee;
+}
+
+.Brand-color{
+	color: #fff;
+}
