@@ -120,6 +120,16 @@ var routes = [
       lazyLoading(resolve, 'demo/PasswordInput', false)
     },
   },
+  {
+    path: '/demo/picker',
+    meta: {
+      title: '选择器',
+      activeTypeIndex: 1,
+    },
+    component: resolve => {
+      lazyLoading(resolve, 'demo/Picker', false)
+    },
+  },
 ]
 
 

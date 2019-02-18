@@ -33,6 +33,9 @@
 	  <van-col span="6">
 	  	<van-button plain type="primary" @click="$router.push('/demo/passwordinput')">密码输入框</van-button>
 	  </van-col>
+	  <van-col span="6">
+	  	<van-button plain type="primary" @click="$router.push('/demo/picker')">选择器</van-button>
+	  </van-col>
 	  
 	</van-row>
     <div>

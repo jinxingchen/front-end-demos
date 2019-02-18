@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js数组题目</title>
+</head>
+<body>
+	
+</body>
+<script > 
+//题目描述
+// 找出元素 item 在给定数组 arr 中的位置
+//输出描述
+//如果数组中存在 item，则返回元素在数组中的位置，否则返回 -1
+	function indexOf(arr, item) {
+    var res = arr.indexOf(item)
+    return res
+}
+console.log(indexOf([1,2,3,4],3));
+
+
+//题目描述
+//计算给定数组 arr 中所有元素的总和
+//输入描述:
+//数组中的元素均为 Number 类型
+function sum(arr) {
+    return  arr.reduce(function(prev,cur,index,array){
+        return prev + cur;
+  });
+}
+ console.log(sum([1,2,3,4]));
+
+
+//题目描述
+//移除数组 arr 中的所有值与 item 相等的元素。不要直接修改数组 arr，结果返回新的数组
+ function remove(arr, item) {
+    var newarr = arr.slice(0)
+    for(var i = 0; i < newarr.length; i++){
+        if( newarr[i] == item){
+            newarr.splice(i,1);
+            i--
+        }
+       
+    }
+     return newarr;
+}
+console.log(remove([1,2,3,4,2],2));
+
+//题目描述
+//移除数组 arr 中的所有值与 item 相等的元素，直接在给定的 arr 数组上进行操作，并将结果返回
+	function removeWithoutCopy(arr, item) {
+    var arrl = arr.length;
+    for(var i = 0; i < arrl; i++){
+        if( arr[0] !== item){
+            arr.push(arr[0]);
+        }
+        arr.shift();
+    }
+    return arr;
+}
+console.log(removeWithoutCopy([1,2,2,3,4,,2,2],2));
+
+//题目描述
+//在数组 arr 末尾添加元素 item。不要直接修改数组 arr，结果返回新的数组
+	function append(arr, item) {
+    return arr.concat([item]);
+}
+	console.log(append([1,2,3,4],10));
+
+//题目描述
+//删除数组 arr 最后一个元素。不要直接修改数组 arr，结果返回新的数组
+	function truncate(arr) {
+		var newArr=[];
+    for(var i=0;i<arr.length-1;i++){
+        newArr.push(arr[i]);
+    }
+    return newArr;
+}
+  console.log(truncate([1,2,3,4]));
+
+//题目描述
+//在数组 arr 开头添加元素 item。不要直接修改数组 arr，结果返回新的数组
+	function prepend(arr, item ){
+		
+	}
+	
+	
+</script>
+
+</html>
