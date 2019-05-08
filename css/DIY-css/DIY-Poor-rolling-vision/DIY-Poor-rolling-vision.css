@@ -1,0 +1,101 @@
+.windowtop{
+  width: 1000px;
+  height: 700px;
+}
+.round {
+ align-items: center;
+ width: 1000px;
+ height: 100vh;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.round-item {
+  margin-right: 100px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.round-blue {
+	background-color: blue;
+}
+
+.round-red {
+	background-color: red;
+	
+}
+
+.round-orange {
+  background-color: orange;
+  
+}
+
+.round-green {
+  background-color: green;
+  
+}
+
+.round-grey {
+  background-color: grey;
+}
+
+.round-yellow {
+  background-color: yellow;
+}
+
+.round-violet {
+  background-color: violet;
+}
+
+.yourElement{
+  animation-iteration-count: 1;
+}
+
+.yourElement-1{
+  animation-delay: 1s; 
+}
+
+.yourElement-2{
+  animation-delay: 1.2s;
+}
+.yourElement-3{
+  animation-delay: 1.4s;
+}
+
+.yourElement-4{
+  animation-delay: 1.6s;
+}
+
+.yourElement-5{
+  animation-delay: 1.8s;
+}
+
+.yourElement-6{
+  animation-delay: 2s;
+}
+
+.yourElement-7{
+  animation-delay: 2.2s;
+}
+
+.yourElement-8{
+  animation-delay: 2.4s;
+}
+
+.yourElement-9{
+  animation-delay: 2.6s;
+}
+
+.yourElement-10{
+  animation-delay: 2.8s;
+}
+
+.yourElement-11{
+  animation-delay: 3s;
+}
+
+.yourElement-12{
+  animation-delay: 3.2s;
+}
+
